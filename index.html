@@ -1,11 +1,404 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
     <title>Twitter</title>
-</head>
-<body>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <script src="https://kit.fontawesome.com/d278e84948.js" crossorigin="anonymous"></script>
+  </head>
+
+
+  <body>
+    <div class="header">
+      <div class="logo">
+      <i class="fa-brands fa-x-twitter"></i>
+      </div>
+
+      <div class="home">
+      <i class="fa-solid fa-house"></i>
+      </div>
+
+      <div class="explore">
+      <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div class="notifications">
+      <i class="fa-regular fa-bell"></i>
+      </div>
+      <div class="messages">
+      <i class="fa-solid fa-envelope"></i>
+      </div>
+      <div class="lists">
+      <span class="material-icons">
+      list_alt
+      </span>
+      </div>
+      <div class="communities">
+      <span class="material-icons">
+      people
+      </span>
+      </div>
+      <div class="verified">
+      <i class="fa-brands fa-x-twitter"></i>
+      </div>
+      <div class="profile">
+      <i class="fa-regular fa-user"></i>
+      </div>
+      <div class="more">
+      <span class="material-icons">
+      pending
+      </span> 
+      </div>
+      <div class="posts">
+      <i class="material-icons">account_circle</i>
+      </div>   
+    </div>
+    <div class="submain">
+      <div class="mainbody">
+        <div class="fix">
+  
+          <div class="main">
+            <b>Home</b> 
+          </div>
+          <div class="fyf">
+            <div class="fy"><b>For you</b></div>
+            <div class="foll"><b>Following</b></div>
+        </div>
+      </div>
+      <div class="activities">
+        <div class="pp"><i class="fa-solid fa-circle-user"></i></div>
+        <div class="every">
+          <label for="viewers"></label>
+          <select name="viewers" id="viewers">
+            <option value="every-one">Everyone</option>
+          </select>
+          <div class="wih">
+            <input type="text" name="what-is-happening" id="what-is-happening" placeholder="What is happening?!">
+          </div>
+          <div class="replier-option">
+            <div class="border">
+              <div class="globe"><i class="fa-solid fa-earth-americas"></i></div>
+              <div class="ecr"><b>Everyone can reply</b></div>
+            </div>
+          </div>
+          <div class="brdr"></div>
+          <div class="gpes">
+            <div class="media"><i class="material-icons">image</i></div>
+            <div class="gifs"><i class="material-icons">gif_box</i></div>
+            <div class="polls"><i class="fa-solid fa-list"></i></div>
+            <div class="emoji"><i class="fa-regular fa-face-smile"></i></div>
+            <div class="schedule"><i class="material-icons">calendar_today</i></div>
+            <div class="location"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="post"><b>Post</b></div>
+          </div>  
+        </div>
+      </div>
+      <div class="main-cont">
+        <div class="bcg-clr">
     
-</body>
+          <div class="tweet-content">
+            <div class="tweet">
+              <img src="https://pbs.twimg.com/profile_images/1548016560756760576/OnJ3xlpN_400x400.jpg" alt="">
+            </div> 
+            <div class="info">
+              <div class="details">gbae the app developer</div>
+              <img src="https://img.icons8.com/fluency/48/verified-badge.png" alt="verified-badge"/>
+              <div class="handle">@daboigbae</div>
+              <div class="time">.10h</div>
+              <div class="dots"><i class="fa-solid fa-ellipsis"></i></div>
+            </div>
+          </div>
+          <div class="comment">Are you a full stack programmer?</div>
+          <div class="image-content"><img src="https://pbs.twimg.com/media/F4tttafakAAh9rt?format=webp&name=small" alt=""></div>
+          <div class="iconz">
+            <div class="comments"><i class="fa-regular fa-comment"></i></div>
+            <div class="comments-no">21</div>
+            <div class="retweets"><i class="fa-solid fa-retweet"></i></div>
+            <div class="retweets-no">28</div>
+            <div class="likes"><i class="fa-regular fa-heart"></i></div>
+            <div class="likes-no">136</div>
+            <div class="view"><i class="fa-solid fa-chart-simple"></i></div>
+            <div class="view-no">3,520</div>
+            <div class="share"><i class="fa-solid fa-arrow-up-from-bracket"></i></div>
+          </div>     
+        </div>
+        <div class="bcg-clr">
+    
+          <div class="tweet-content">
+            <div class="tweet">
+              <img src="https://pbs.twimg.com/profile_images/1548016560756760576/OnJ3xlpN_400x400.jpg" alt="">
+            </div> 
+            <div class="info">
+              <div class="details">gbae the app developer</div>
+              <img src="https://img.icons8.com/fluency/48/verified-badge.png" alt="verified-badge"/>
+              <div class="handle">@daboigbae</div>
+              <div class="time">.10h</div>
+              <div class="dots"><i class="fa-solid fa-ellipsis"></i></div>
+            </div>
+          </div>
+          <div class="comment">As a programmer - don't give up</div>
+          <div class="image-content"><img src="https://pbs.twimg.com/media/F43TOcQa4AAxcHr?format=jpg&name=900x900" alt=""></div>
+          <div class="iconz">
+            <div class="comments"><i class="fa-regular fa-comment"></i></div>
+            <div class="comments-no">21</div>
+            <div class="retweets"><i class="fa-solid fa-retweet"></i></div>
+            <div class="retweets-no">28</div>
+            <div class="likes"><i class="fa-regular fa-heart"></i></div>
+            <div class="likes-no">136</div>
+            <div class="view"><i class="fa-solid fa-chart-simple"></i></div>
+            <div class="view-no">3,520</div>
+            <div class="share"><i class="fa-solid fa-arrow-up-from-bracket"></i></div>
+          </div>     
+        </div>
+        <div class="bcg-clr">
+    
+          <div class="tweet-content">
+            <div class="tweet">
+              <img src="https://pbs.twimg.com/profile_images/1548016560756760576/OnJ3xlpN_400x400.jpg" alt="">
+            </div> 
+            <div class="info">
+              <div class="details">gbae the app developer</div>
+              <img src="https://img.icons8.com/fluency/48/verified-badge.png" alt="verified-badge"/>
+              <div class="handle">@daboigbae</div>
+              <div class="time">.10h</div>
+              <div class="dots"><i class="fa-solid fa-ellipsis"></i></div>
+            </div>
+          </div>
+          <div class="comment">As a programmer - how do you get better at googling?</div>
+          <div class="image-content"><img src="https://pbs.twimg.com/media/F4yGVSAbEAAAYHb?format=jpg&name=small" alt=""></div>
+          <div class="iconz">
+            <div class="comments"><i class="fa-regular fa-comment"></i></div>
+            <div class="comments-no">21</div>
+            <div class="retweets"><i class="fa-solid fa-retweet"></i></div>
+            <div class="retweets-no">28</div>
+            <div class="likes"><i class="fa-regular fa-heart"></i></div>
+            <div class="likes-no">136</div>
+            <div class="view"><i class="fa-solid fa-chart-simple"></i></div>
+            <div class="view-no">3,520</div>
+            <div class="share"><i class="fa-solid fa-arrow-up-from-bracket"></i></div>
+          </div>     
+        </div>
+        <div class="bcg-clr">
+    
+          <div class="tweet-content">
+            <div class="tweet">
+              <img src="https://pbs.twimg.com/profile_images/1691887885958393858/IR_y4EWT_400x400.jpg" alt="">
+            </div> 
+            <div class="info">
+              <div class="details">embersunn</div>
+              <img src="https://img.icons8.com/fluency/48/verified-badge.png" alt="verified-badge"/>
+              <div class="handle">@daboigbae</div>
+              <div class="time">.10h</div>
+              <div class="dots"><i class="fa-solid fa-ellipsis"></i></div>
+            </div>
+          </div>
+          <div class="comment">My favorite Github sticker</div>
+          <div class="image-content"><img src="https://pbs.twimg.com/media/F4862hFXUAESa-B?format=jpg&name=large" alt=""></div>
+          <div class="iconz">
+            <div class="comments"><i class="fa-regular fa-comment"></i></div>
+            <div class="comments-no">21</div>
+            <div class="retweets"><i class="fa-solid fa-retweet"></i></div>
+            <div class="retweets-no">28</div>
+            <div class="likes"><i class="fa-regular fa-heart"></i></div>
+            <div class="likes-no">136</div>
+            <div class="view"><i class="fa-solid fa-chart-simple"></i></div>
+            <div class="view-no">3,520</div>
+            <div class="share"><i class="fa-solid fa-arrow-up-from-bracket"></i></div>
+          </div>     
+        </div>
+      </div>
+    </div>
+
+    <div class="sideb">
+
+      <div class="side-block">
+        <div class="side">
+          <div class="lookfr">
+            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="lookfor">
+            <input type="text" name="search" id="search" placeholder="Search">
+          </div>
+        </div>
+        <div class="stwt">
+          <div class="subscribe">
+            <div class="premium-subs">Subscribe to Premium</div>
+            <div class="subs-info">
+              Subscribe to unlock new Features and if
+              eligible, recieve a share of ads revenue.
+            </div>
+            <button class="subs-bttn">Subscribe</button>
+          </div>
+          <div class="trends">
+            <div class="first-section">
+              <div class="tfu">Trends for you</div>
+              <div class="trending">
+                Trending
+                <div class="three-dots">
+                  <i class="fa-solid fa-ellipsis"></i>
+                </div>
+              </div>
+              <div class="kc">Kaizer Chiefs</div>
+              <div class="posts-no">8,676 posts</div>
+            </div>
+            <div class="secnd-section">
+              <div class="hashgalx">#Galaxy947JoburgDay</div>
+              <div class="galaxy">Galaxy Fliptown is GIVING, all day today!</div>
+              <div class="vibes">Good Vibes Only</div>
+              <div class="promo">Promoted by Samsung Mobile SA</div>
+            </div>
+            <div class="first-section">
+              <div class="tfu">Trends for you</div>
+              <div class="trending">
+                Trending
+                <div class="three-dots">
+                  <i class="fa-solid fa-ellipsis"></i>
+                </div>
+              </div>
+              <div class="kc">#SingleAndMingle</div>
+              <div class="posts-no">1,780 posts</div>
+            </div>
+            <div class="first-section">
+              <div class="tfu">Trends for you</div>
+              <div class="trending">
+                Trending
+                <div class="three-dots">
+                  <i class="fa-solid fa-ellipsis"></i>
+                </div>
+              </div>
+              <div class="kc">After 30</div>
+              <div class="posts-no">21.2k posts</div>
+            </div>
+            <div class="first-section">
+              <div class="tfu">Trends for you</div>
+              <div class="trending">
+                Trending
+                <div class="three-dots">
+                  <i class="fa-solid fa-ellipsis"></i>
+                </div>
+              </div>
+              <div class="kc">Durban</div>
+              <div class="posts-no">1,684 posts</div>
+            </div>
+            <div class="first-section">
+              <div class="tfu">Trends for you</div>
+              <div class="trending">
+                Trending
+                <div class="three-dots">
+                  <i class="fa-solid fa-ellipsis"></i>
+                </div>
+              </div>
+              <div class="kc">The ANC</div>
+              <div class="posts-no">12.9k posts</div>
+            </div>
+            <div class="first-section">
+              <div class="tfu">Trends for you</div>
+              <div class="trending">
+                Trending
+                <div class="three-dots">
+                  <i class="fa-solid fa-ellipsis"></i>
+                </div>
+              </div>
+              <div class="kc">#SpringDay</div>
+              <div class="posts-no">2,530 posts</div>
+              <div class="show-more">Show more</div>
+            </div>
+            
+            
+          </div>
+           
+          <div class="whotf">
+            <div class="who-to-follow">Who to follow</div>
+            <div class="whotf-one">
+              <div class="to-follow">
+                <img src="https://pbs.twimg.com/profile_images/1689660146304061440/Sgq7ryaL_400x400.jpg" alt="">
+                <div class="follow-handle">
+                  <div class="handle-follow">
+                    <div class="name">Madeline</div>
+                    <div class="at">@Maddy_sebs</div>
+                  </div>
+                  <div class="follb-one">
+                    <button class="fll-b">Follow</button>
+                  </div>
+                </div>   
+              </div>
+            </div>
+            <div class="whotf-two">
+              <div class="to-follow">
+                <img src="https://pbs.twimg.com/profile_images/1643367111027220485/o0j7Qk42_400x400.jpg" alt="">
+                <div class="follow-handle">
+                  <div class="handle-follow">
+                    <div class="name">Edward Manqele</div>
+                    <div class="at">@manqele_22</div>
+                  </div>
+                  <div class="follb-two">
+                    <button class="fll-b">Follow</button>
+                  </div>
+                </div>       
+              </div>
+            </div>
+            <div class="whotf-three">
+              <div class="to-follow">
+                <img src="https://pbs.twimg.com/profile_images/1610377626287329282/GChKRfNR_400x400.jpg" alt="">
+                <div class="follow-handle">
+                  <div class="handle-follow">
+                    <div class="name">Miss Ziprusha</div>
+                    <div class="at">@destinyzee</div>
+                  </div>
+                  <div class="follb-three">
+                    <button class="fll-b">Follow</button>
+                  </div>
+                </div>     
+              </div>
+            </div>
+            <div class="show-more">Show more</div>
+          </div>
+            <div class="terms">
+              <div class="tpcp">
+                <div class="ts">Terms of Service</div>
+                <div class="p">Privacy Policy</div>
+                <div class="cp">Cookie Policy</div>
+              </div>
+              <div class="tpcp">
+                <div class="ts">Accessibility</div>
+                <div class="p">Ads info</div>
+                <div class="mre-dots">
+                  <div class="cp">More</div>
+                  <div class="dotty"><i class="fa-solid fa-ellipsis"></i></div>
+                </div>
+                <div class="ts">© 2023 X Corp.</div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    
+    
+    
+     
+
+
+
+  
+    
+  
+
+    
+  
+    
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
